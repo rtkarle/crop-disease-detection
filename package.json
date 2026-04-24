@@ -1,0 +1,16 @@
+{
+  "name": "smart-crop-disease-detection",
+  "version": "1.0.0",
+  "description": "Smart Crop Disease Detection System using PlantVillage Dataset",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend"
+  }
+}
